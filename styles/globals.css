@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Segoe UI, Roboto, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ccc;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #999;
+}
+
+/* custom editor content style */
+.ql-editor {
+  padding: 0 !important;
+  color: #64748b;
+  margin-top: 16px;
+}
+
+.ql-editor a {
+  color: #003366;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.ql-editor ol,
+.ql-editor ul {
+  padding: 0 !important;
+}
+
+.ql-editor h1 {
+  font-size: 24px;
+}
+
+.ql-editor h2 {
+  font-size: 20px;
+}
+
+.ql-editor h3 {
+  font-size: 18px;
+}
+
+.ql-editor h4 {
+  font-size: 16px;
+}
+
+.ql-editor h5 {
+  font-size: 14px;
+}
+
+.ql-editor h6 {
+  font-size: 12px;
+}
+
+.ql-editor h1,
+.ql-editor h2,
+.ql-editor h3,
+.ql-editor h4,
+.ql-editor h5,
+.ql-editor h6 {
+  font-weight: 500;
+}
+
+.ql-editor .ql-align-center {
+  display: flex;
+  justify-content: center;
+}
+
+.ql-editor .ql-align-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ql-editor ul > li::before {
+  content: "–" !important;
+  font-size: 20px;
+  line-height: 20px;
+  margin-left: -40px !important;
+}
+
+.ql-editor ol > li::before {
+  margin-left: -32px !important;
+}
