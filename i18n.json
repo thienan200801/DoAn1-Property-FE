@@ -1,0 +1,15 @@
+{
+  "locales": ["vi", "en"],
+  "defaultLocale": "vi",
+  "pages": {
+    "*": ["common"],
+    "/": ["home"],
+    "/gioi-thieu": ["home"],
+    "/nhu-cau-ban": ["sell-demand"],
+    "/nhu-cau-mua": ["buy-demand"],
+    "/nhu-cau-mua/tai-san/[slug]": ["buy-demand"],
+    "/gioi-thieu-du-an": ["project", "post"],
+    "/tham-gia-cung-chung-toi": ["join-us"],
+    "/tin-tuc": ["post"]
+  }
+}
